@@ -1,9 +1,10 @@
 import os
 import pygit2
+import difflib
 from datetime import datetime
 from subprocess import Popen
 
-from discord import WebhookAdapter
+import requests
 
 from derw import log
 
@@ -12,6 +13,9 @@ GIT_REPO = os.environ.get("GIT_REPO")
 GIT_USERNAME = os.environ.get("GIT_USERNAME")
 GIT_EMAIL = os.environ.get("GIT_EMAIL")
 GIT_PASSWORD = os.environ.get("GIT_PASSWORD")
+
+# WEBHOOK
+WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
 
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
 
@@ -41,10 +45,13 @@ class Git():
             log.info("No changes, commit not needed")
             return
 
-        index = self.repo.index
-        index.add_all()
-        index.write()
+        requests.post(WEBHOOK_URL, data = {"content": "<@167726726451953664> Changes to monitored files"})
 
+        return
+
+        index = git.repo.index
+        index.add_all(pathspecs=['content'])
+        index.write()
         tree = index.write_tree()
 
         message = (
@@ -58,7 +65,6 @@ class Git():
         self.repo.remotes["origin"].push([ref], callbacks=self.remote)
 
 git = Git()
-print(git.repo)
 # git.pull()
 
 p = Popen([
@@ -80,14 +86,5 @@ out, err = p.communicate()
 
 if err:
     print(f'ERROR: {err}')
-
-index = git.repo.index
-index.add_all(pathspecs=['content'])
-index.write()
-
-print(len(git.repo.diff(cached=True)))
-
-for delta in git.repo.diff(cached=True):
-    print(delta)
 
 git.commit_and_push()
