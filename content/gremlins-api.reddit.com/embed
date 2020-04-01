@@ -19,7 +19,7 @@
     <script src="https://www.redditstatic.com/gremlins/client/lib/webcomponents-loader.js"></script>
 
     
-    <script src="https://www.redditstatic.com/gremlins/client/index-410918c5.js"></script>
+    <script src="https://www.redditstatic.com/gremlins/client/index-ad42703d.js"></script>
     
 
     
@@ -218,7 +218,7 @@
   
   <div>
     
-      <gremlin-numberstat value="83148"></gremlin-numberstat>
+      <gremlin-numberstat value="83974"></gremlin-numberstat>
       Total answers
     
   </div>
