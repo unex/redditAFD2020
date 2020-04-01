@@ -23,7 +23,7 @@
     
 
     
-    <script async src="https://www.redditstatic.com/gremlins/client/embed-9fb35e22.js"></script>
+    <script async src="https://www.redditstatic.com/gremlins/client/embed-7c0e5812.js"></script>
     
 
     
@@ -211,7 +211,7 @@
     <gremlin-prompt>
 	<gremlin-stats>
   <div>
-    <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.7143819569133787" max="1"></gremlin-avatarmeter>
+    <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.7143103232968291" max="1"></gremlin-avatarmeter>
     Imposter deceives<br>
     humans: 71%
   </div>
