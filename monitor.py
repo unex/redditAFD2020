@@ -47,8 +47,6 @@ class Git():
 
         requests.post(WEBHOOK_URL, data = {"content": "<@167726726451953664> Changes to monitored files"})
 
-        return
-
         index = git.repo.index
         index.add_all(pathspecs=['content'])
         index.write()
