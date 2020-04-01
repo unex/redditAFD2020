@@ -90,4 +90,4 @@ print(len(git.repo.diff(cached=True)))
 for delta in git.repo.diff(cached=True):
     print(delta)
 
-# git.commit_and_push()
+git.commit_and_push()
