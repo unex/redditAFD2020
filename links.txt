@@ -1,3 +1,4 @@
 https://gremlins-api.reddit.com/constants
 https://gremlins-api.reddit.com/embed
 https://www.redditstatic.com/gremlins/client/embed-fd22d18c.js
+https://gremlins-api.reddit.com/status
