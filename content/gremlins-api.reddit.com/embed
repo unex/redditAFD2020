@@ -211,22 +211,15 @@
     <gremlin-prompt>
 	<gremlin-stats>
   <div>
-    <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.7599904283321368" max="1"></gremlin-avatarmeter>
+    <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.7584600419802385" max="1"></gremlin-avatarmeter>
     Imposter deceives<br>
     humans: 76%
   </div>
   
-    <div>
-      <gremlin-avatarmeter mode="positive" avatar="https://www.redditstatic.com/gremlins/snoo.png" value="1.0" max="1"></gremlin-avatarmeter>
-      You identify the<br>
-      Imposter: 0%
-    </div>
-  
   <div>
     
-      <gremlin-avatarmeter mode="negative" icon="chat" value="0.14583333333333334"></gremlin-avatarmeter>
-      You deceive<br>
-      humans: 15%
+      <gremlin-numberstat value="2513"></gremlin-numberstat>
+      Total answers
     
   </div>
 </gremlin-stats>
