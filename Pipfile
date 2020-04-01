@@ -9,6 +9,7 @@ verify_ssl = true
 pygit2 = "*"
 derw = {git = "https://github.com/notderw/python-util"}
 discord-py = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
