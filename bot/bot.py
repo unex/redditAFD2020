@@ -55,7 +55,7 @@ while True:
         }
     ]
 
-    print(f'Try {_id} - {r.json()["result"]}')
+    print(f'Try {_id} - {r.json()["result"]} - {text}')
 
     r = requests.post(f'https://api.snakeroom.org/y20/submit', json = {
         "options": options
