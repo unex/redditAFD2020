@@ -1,1 +1,17 @@
-{"global_score": 0.3256778251390523, "imposter_score": 0.6779563245410003, "imposter_score_pretty": "68%", "total_games": 12754912, "correct_guesses": 4153992, "total_notes": 573300, "hour_ago_total_games": 12389658, "hour_ago_correct_guesses": 3990011, "hour_ago_total_notes": 563364}
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>503 All backends failed or unhealthy</title>
+  </head>
+  <body>
+    <h1>Error 503 All backends failed or unhealthy</h1>
+    <p>All backends failed or unhealthy</p>
+    <h3>Guru Mediation:</h3>
+    <p>Details: cache-den19624-DEN 1585853526 3977236527</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
