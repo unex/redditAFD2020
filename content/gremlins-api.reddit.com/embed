@@ -176,7 +176,8 @@
     }
   }
 
-  h1 + gremlin-meta {
+  h1 + gremlin-meta,
+  h2 + gremlin-meta {
     margin-bottom: 10px;
   }
 
