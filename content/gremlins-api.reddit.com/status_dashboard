@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"  class="daymode entry">
+<html lang="en"  class="daymode">
   <head>
     <title>Gremlins</title>
 
@@ -23,7 +23,7 @@
     
 
     
-    <script async src="https://www.redditstatic.com/gremlins/client/embed-7c0e5812.js"></script>
+    <script async src="https://www.redditstatic.com/gremlins/client/client-9239b88b.js"></script>
     
 
     
@@ -210,14 +210,29 @@
       
   
     <gremlin-prompt>
-  <gremlin-stats style="margin: 0">  
-    <gremlin-avatarmeter background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value=".5" max="1"></gremlin-avatarmeter>
-  </gremlin-stats>
-  <h1 style="margin: 5px 0">Imposter has ended</h1>
+  <h1>Global Stats</h1>
+  <gremlin-meta>Stats from games across all players.</gremlin-meta>
+  <br>
 
-  <gremlin-action type="link">
-    <a href="/status_dashboard" tabindex="-1">View your stats</a>
-  </gremlin-action>
+  <div>
+    <gremlin-stats>
+      <div>
+        <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.28385374094054816" max="1"></gremlin-avatarmeter>
+        Imposter deceives<br>
+        humans: 28%
+      </div>
+      <div>
+        <gremlin-numberstat value="811410" delta=6791></gremlin-numberstat>
+        Total answers
+      </div>
+      <div>
+        <gremlin-numberstat value="22043086" delta=477126></gremlin-numberstat>
+        Total games
+      </div>
+    </gremlin-stats>
+  </div>
+  
+  
 </gremlin-prompt>
   
 
