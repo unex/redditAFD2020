@@ -212,14 +212,14 @@
     <gremlin-prompt>
 	<gremlin-stats>
   <div>
-    <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.3258681404912641" max="1"></gremlin-avatarmeter>
+    <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.3254657132740577" max="1"></gremlin-avatarmeter>
     Imposter deceives<br>
     humans: 33%
   </div>
   
   <div>
     
-      <gremlin-numberstat value="771670" delta=7703></gremlin-numberstat>
+      <gremlin-numberstat value="771782" delta=7570></gremlin-numberstat>
       Total answers
     
   </div>
