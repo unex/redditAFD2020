@@ -217,16 +217,16 @@
   <div>
     <gremlin-stats>
       <div>
-        <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.28385374094054816" max="1"></gremlin-avatarmeter>
+        <gremlin-avatarmeter mode="negative" background="#FF4500" avatar="https://www.redditstatic.com/gremlins/imposter.png" value="0.2846548798320844" max="1"></gremlin-avatarmeter>
         Imposter deceives<br>
         humans: 28%
       </div>
       <div>
-        <gremlin-numberstat value="811410" delta=6791></gremlin-numberstat>
+        <gremlin-numberstat value="811410" delta=6579></gremlin-numberstat>
         Total answers
       </div>
       <div>
-        <gremlin-numberstat value="22043086" delta=477126></gremlin-numberstat>
+        <gremlin-numberstat value="22043086" delta=460231></gremlin-numberstat>
         Total games
       </div>
     </gremlin-stats>
