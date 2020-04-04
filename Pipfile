@@ -8,11 +8,7 @@ verify_ssl = true
 [packages]
 pygit2 = "*"
 derw = {git = "https://github.com/notderw/python-util"}
-discord-py = "*"
 requests = "*"
-pymongo = "*"
-requests-respectful = "*"
-pymysql = "*"
 
 [requires]
 python_version = "3.8"
